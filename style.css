@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    margin-top: auto;
+    background-color: #707099;
+    font-family: "silkscreen";
+}
+
+#flexbody {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#header{
+padding-top: 25px;
+padding-bottom: 25px;
+font-size: 80px;
+color: #FBFEF9;
+text-align: center;
+background-color: #191923;
+}
+
+#calculatorBody {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0E79B2;
+    margin: 50px auto auto;
+    border: 3px solid #191923;
+    border-radius: 8px;
+    width: 450px;
+    height: 600px;
+    margin-bottom: 80px;
+}
+
+#calculatorScreen {
+    margin-top: 20px;
+    width: 400px;
+    height: 25%;
+    border: 3px solid #191923;
+    background-color: #FBFEF9;
+    border-radius: 6px;
+}
+
+#clearDeleteContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 20px;
+    width: 400px;
+    height: 80px;
+}
+
+#buttonsTemplateContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 60%;
+    border: 2px solid #191923;
+    border-top: 0;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.buttonSmall {
+    border: 2px solid #191923;
+    border-radius: 6px;
+    background-color: #F39237;
+    width: 75px;
+    height: 60px;
+    margin: 10px;
+    text-align: center;
+    font-size: 42px;
+}
+
+#znak {
+    background-color: #F6AB65;
+}
+
+.buttonBig {
+    border: 2px solid #191923;
+    background-color: #BF1363;
+    border-radius: 6px;
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+}
+
+#delete {
+    background-color: #df6ca2;
+}
+
+#footer {
+padding-top: 25px;
+padding-bottom: 25px;
+font-size: 30px;
+color: #FBFEF9;
+text-align: center;
+background-color: #191923;
+margin-bottom: 0;
+}
